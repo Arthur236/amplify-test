@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Nunito', 'Oxygen', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,67 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#page-content {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  width: 100%;
+  padding: 40px;
+}
+
+#footer {
+  flex-shrink: 0;
+  width: 100%;
+  height: 70px;
+}
+
+.ant-layout-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.nav-links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-links-wrapper a {
+  color: #fefefe;
+}
+
+.nav-links-wrapper a:not(:last-child) {
+  margin-right: 40px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.ant-card {
+  margin-bottom: 20px;
+}
+
+.ant-card:not(:last-child) {
+  margin-right: 20px;
 }
