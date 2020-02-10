@@ -72,3 +72,7 @@ code {
 .ant-card:not(:last-child) {
   margin-right: 20px;
 }
+
+.login-form {
+  width: 320px;
+}

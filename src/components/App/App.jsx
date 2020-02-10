@@ -7,6 +7,7 @@ import Navbar from '../Navbar';
 import SignIn from '../SignIn';
 import SignUp from '../SignUp';
 import Welcome from '../Welcome';
+import VerifyEmail from '../VerifyEmail';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               <Route exact path="/signin" component={SignIn}/>
               <Route exact path="/signup" component={SignUp}/>
               <Route exact path="/welcome" component={Welcome}/>
+              <Route exact path="/verify" component={VerifyEmail}/>
             </Switch>
           </div>
 

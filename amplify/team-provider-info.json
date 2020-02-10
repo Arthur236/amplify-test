@@ -1,0 +1,27 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplify-test-dev-154418-authRole",
+            "UnauthRoleArn": "arn:aws:iam::121738924594:role/amplify-amplify-test-dev-154418-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::121738924594:role/amplify-amplify-test-dev-154418-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-amplify-test-dev-154418-deployment",
+            "UnauthRoleName": "amplify-amplify-test-dev-154418-unauthRole",
+            "StackName": "amplify-amplify-test-dev-154418",
+            "StackId": "arn:aws:cloudformation:us-east-2:121738924594:stack/amplify-amplify-test-dev-154418/92768b70-49a7-11ea-bd88-062398501aa6",
+            "AmplifyAppId": "d39lsaakqstwkn"
+        },
+        "categories": {
+            "auth": {
+                "amplifytesteac09974eac09974": {}
+            },
+            "function": {
+                "amplifytesteac09974eac09974CustomMessage": {
+                    "REDIRECTURL": "http://localhost:3000/signin",
+                    "EMAILSUBJECT": "Email Verification",
+                    "EMAILMESSAGE": "Click on the link below to verify your account"
+                }
+            }
+        }
+    }
+}
